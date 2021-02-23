@@ -52,6 +52,7 @@ export function loadOrCreatePair(address: Address): Pair {
     if (token0.reverted) {
       log.info("Could not get token0 address from pair", []);
       // return null;
+      pair.token0 = loadOrCreateToken(address).id;
     } else {
       pair.token0 = loadOrCreateToken(token0.value).id;
     }
