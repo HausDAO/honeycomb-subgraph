@@ -6,7 +6,7 @@
     "create-local": "graph create 1hive/honeycomb --node http://127.0.0.1:8020",
     "codegen": "graph codegen",
     "build": "graph build",
-    "deploy": "graph deploy 1hive/honeycomb --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/",
+    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ odyssy-automaton/daohaus-honey-haus-kovan",
     "deploy-local": "graph deploy 1hive/honeycomb --ipfs http://localhost:5001 --node http://127.0.0.1:8020"
   },
   "devDependencies": {

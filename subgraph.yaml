@@ -6,11 +6,11 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: Factory
-    network: xdai
+    network: kovan
     source:
-      address: '0xe29dcd715d11455194d7d74c622f3c42c8a37040'
+      address: "0x1c06d4B3c6B3699dB45986C15d12200b067D4339"
       abi: Factory
-      startBlock: 12055150
+      startBlock: 23617260
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
@@ -38,7 +38,7 @@ dataSources:
 templates:
   - kind: ethereum/contract
     name: Pool
-    network: xdai
+    network: kovan
     source:
       abi: Pool
     mapping:
