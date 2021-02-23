@@ -21,8 +21,12 @@ type Pair @entity {
   id: ID!
 
   # Mirrored from the smart contract
-  token0: Token!
-  token1: Token!
+  # token0: Token!
+  # token1: Token!
+
+  # HAUS TEST
+  token0: Token
+  token1: Token
 }
 
 type Pool @entity {
